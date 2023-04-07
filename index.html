@@ -15,43 +15,65 @@
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo">Employee_Management</h2>
+                <h2 class="logo">Employee_Management_System</h2>
             </div>
             <h1>Employee_List</h1>
             <div class="menu">
-                <ul>
 
-                    <li><a href="update.html">UPDATE</a></li>
-                    <li><a href="add.html">ADD</a></li>
-                    <li><a href="#">DELETE</a></li>
-
-                </ul>
-
-
-                <div class="emp">
-                    <table id="employee-table">
-                        <thead>
-                            <tr>
+                <table>
+                    <thead>
+                        <tr>
+                            <b>
                                 <th>Name</th>
-                                <th>Employee ID</th>
+                            </b>
+                            <b>
+                                <th>ID</th>
+                            </b>
+                            <b>
                                 <th>Date</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody id="employee-table">
-                            <tr>
-                        <tbody class="student-list">
-                            </tr>
-                            <td>uuuu</td>
+                            </b>
+                            <b>
+                                <th>Action</th>
+                            </b>
+                            <b>
+                                <th>Action</th>
+                            </b>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>name</td>
                             <td>1</td>
-                            <td>29/8/23</td>
-                            <td>
+                            <td>2022-03-15</td>
+                            <td><button>Delete</button></td>
+                            <td><button>update</button></td>
+                        </tr>
+                        <tr>
+                            <td>name</td>
+                            <td>2</td>
+                            <td>2022-03-18</td>
+                            <td><button>Delete</button></td>
+                            <td><button>update</button></td>
+                        </tr>
+                        <tr>
+                            <td>name</td>
+                            <td>3</td>
+                            <td>2022-03-21</td>
+                            <td><button>Delete</button></td>
+                            <td><button>update</button></td>
+                        </tr>
+                        <tr>
+                            <td>name</td>
+                            <td>4</td>
+                            <td>2022-03-21</td>
+                            <td><button>Delete</button></td>
+                            <td><button onclick="location.href='update.html'">update</button></td>
+                        </tr>
+                    </tbody>
+                </table>
 
-                                <a href="#" class="delete-btn ">Delete</a>
-                            </td>
-                        </tbody>
-                    </table>
-                </div>
+                <button id="add" onclick="location.href='add.html'">Add</button>
+
             </div>
         </div>
     </div>

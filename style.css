@@ -5,7 +5,7 @@
 
 .main {
     width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    background: linear-gradient(to top, rgba(2, 59, 61, 0.5)50%, rgba(2, 59, 61, 0.5)50%);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -24,7 +24,7 @@
 }
 
 .logo {
-    color: #ff7200;
+    color: #07133a;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -41,36 +41,11 @@
 }
 
 h1 {
-    color: bisque;
+    color: rgb(102, 59, 8);
     text-align: center;
+    padding-top: 100px;
 }
 
-
-ul {
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li {
-    list-style: none;
-    margin-left: 200px;
-    margin-top: 80px;
-    font-size: 24px;
-}
-
-ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-
-ul li a:hover {
-    color: #ff7200;
-}
 
 
 table {
@@ -80,43 +55,51 @@ table {
 
 }
 
-.emp {
 
-    padding-left: 240px;
-
-
-}
-
-#employee-table {
+table {
     border-collapse: collapse;
-
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+margin-left: 400px;
 }
 
-#employee-table th,
-#employee-table td {
-    border: 1px solid rgb(17, 1, 1);
-    padding: 10px;
-    color: black;
-    text-align: center;
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #1b045a;
 }
 
-#employee-table th {
-    background-color: gray;
-    color: rgb(15, 1, 1);
+th {
+    background-color:#16647A;
+    color: #0f0101;
+    font-weight: normal;
 }
 
-
-.delete-btn {
-    padding: 5px;
-    background-color: green;
-    color: white;
+button {
+    background-color: #151424;
+    color: #fff;
     border: none;
-    border-radius: 5px;
+    padding: 6px 12px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-
-
-.delete-btn {
-    background-color: red;
+button:hover {
+    background-color: #3a0b79;
 }
+#add{
+    background-color: #151424;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer; 
+    margin-left:750px;
+    
+}
+
+#add:hover{
+    background-color: rgb(70, 23, 146);
+}
+    
