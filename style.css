@@ -1,3 +1,6 @@
+@media (max-width: 768px) {
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +8,12 @@
 
 .main {
   width: 100%;
-  font-size: larger;
-  font-family: 'Courier New', Courier, monospace;
-  background: linear-gradient(to top, rgba(2, 59, 61, 0.5)50%, rgba(2, 59, 61, 0.5)50%);
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(to top, rgba(100, 73, 236, 0.5)50%, rgba(100, 73, 236, 0.5)50%);
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  height: 150vh;
 }
 
 
@@ -28,14 +31,14 @@
 
 
 h1 {
-  color: rgb(102, 59, 8);
+  color: rgb(22, 17, 10);
   padding-top: 94px;
-  padding-left: 550px;
+  padding-left: 535px;
 
 }
 
 h2 {
-  color: rgb(102, 59, 8);
+  color: rgb(58, 36, 10);
   padding-top: 34px;
   padding-left: 700px;
 
@@ -79,7 +82,6 @@ th {
 
 button {
   background-color: #280d53;
-  /* Green */
   border: none;
   border-radius: 6px;
   color: white;
